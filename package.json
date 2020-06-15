@@ -1,0 +1,26 @@
+{
+  "name": "repro-rollup-plugin-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillaumeRahbari/repro-rollup-plugin-ts.git"
+  },
+  "author": "Guillaume Rahbari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuillaumeRahbari/repro-rollup-plugin-ts/issues"
+  },
+  "homepage": "https://github.com/GuillaumeRahbari/repro-rollup-plugin-ts#readme",
+  "devDependencies": {
+    "@wessberg/rollup-plugin-ts": "1.2.25",
+    "rollup": "2.16.1",
+    "typescript": "3.9.5"
+  }
+}
